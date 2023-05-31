@@ -1,0 +1,2 @@
+p, admin, /web/casbin, POST
+p, super, /web/*, (GET)|(POST)

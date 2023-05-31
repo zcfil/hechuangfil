@@ -1,0 +1,21 @@
+#上传文件的存储路径以及文件大小限制
+[Repo]
+PaymentImagePath = "/"
+ProductImagePath = "/"
+MaxSize = 8388608
+[MySql]
+Name = "hechuangfil"
+Host = "127.0.0.1:3306"
+Username = "root"
+Password = "123456"
+[Redis]
+Host = "127.0.0.1:6379"
+Password = ""
+[AuthCode]
+Token = "6cmBDYDPsvvpYpC2hfoP7TMxMLzqVG"
+[Project]
+Host = "8998"
+Salesmanratio = 0.2
+LotusUrl = "http://127.0.0.1"
+[LogFile]
+fileName = "./log/hechuangfil.log"
